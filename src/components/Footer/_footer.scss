@@ -1,0 +1,33 @@
+#footer {
+    font-family: var(--mainKor-font);
+    background: linear-gradient(180deg, rgb(187, 185, 145), rgb(203 200 130));
+}
+.footer__inner {
+    padding: 16px;
+
+    .footer__info {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0;
+
+        @media (max-width: 800px){
+            flex-direction: column;
+        }
+        .right {
+            width: 50%;
+
+            @media (max-width: 800px){
+                width: 100%;
+            }
+        }
+    }
+    .footer__content {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 20px;
+        @media (max-width:400px) {
+            font-size: 11px;
+        }
+    }
+}
