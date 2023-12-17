@@ -1,0 +1,7 @@
+.home__layout__container {
+    display: grid;
+    grid-template-rows: auto 1fr auto auto auto; // 행의 크기를 정의
+    grid-template-columns: 100%; // 열의 크기를 정의
+    height: 100vh; // 전체 뷰포트 높이
+  }
+  

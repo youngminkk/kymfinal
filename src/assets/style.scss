@@ -2,8 +2,11 @@
 @import "../assets/scss/setting/reset";
 @import "../assets/scss/setting/fonts";
 
+// layouts
+@import "../views/Home/homelayout";
 
 // component
-@import "../components/Test/test";
+@import "../components/Scheduler/scheduler";
 @import "../components/Header/header";
 @import "../components/Footer/footer";
+@import "../components/Map/map";

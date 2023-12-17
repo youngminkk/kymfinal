@@ -3,11 +3,11 @@ import {text} from "../../constants";
 
 
 
-const Test = () => {
+const Scheduler = () => {
     return(
     <div>
-        <h1 className="test">{text[2].text}</h1>
+        <h1 className="scheduler">{text[2].text}</h1>
     </div>
     )
 }
-export default Test
+export default Scheduler
