@@ -12,15 +12,15 @@ const Map = () => {
     if (!mapRef.current && mapDiv) {
       mapRef.current = new window.Tmapv2.Map("map_div", {
         center: new window.Tmapv2.LatLng(37.566481622437934,126.98502302169841),
-        width: "100vh",
-        height: "40vh",
         zoom: 15
       });
     }
   }, []);
 
   return(
-    <div id='map_div' className='map__container'></div>
+    <div className='map__container'>
+      <div id='map_div'></div>
+    </div>
   ) 
 };
 

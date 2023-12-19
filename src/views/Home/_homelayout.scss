@@ -1,7 +1,21 @@
 .home__layout__container {
-    display: grid;
-    grid-template-rows: auto 1fr auto auto auto; // 행의 크기를 정의
-    grid-template-columns: 100%; // 열의 크기를 정의
-    height: auto; // 전체 뷰포트 높이
-  }
-  
+  display: flex;
+  height: auto;
+  padding: 1rem 5rem;
+  justify-content: center;
+
+}
+
+.home__left {
+  height: 90vh;
+  padding: 2rem;
+  flex: 0 0 50%;
+  border: 1px black solid;
+}
+
+.home__right {
+  height: 90vh;
+  padding: 2rem;
+  flex: 0 0 30%;
+  border: 1px black solid;
+}
