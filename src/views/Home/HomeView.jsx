@@ -10,7 +10,7 @@ import Chat from "../../components/Chat/Chat";
 
 const HomeView = () => {
   return (
-    <ThemeProvider>
+      <ThemeProvider>
       <HomeLayout>
         <Taps />
         <Map column="left"/>
@@ -18,7 +18,7 @@ const HomeView = () => {
         <Notifications column="right"/>
         <Chat column="right"/>
       </HomeLayout>
-    </ThemeProvider>
+     </ThemeProvider>
   )
 }
 

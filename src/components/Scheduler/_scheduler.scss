@@ -1,9 +1,11 @@
 #scheduler {
-    width: 100vh;
+    width: 100%;
     border: 3px black solid;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 .scheduler__header{
-
+text-align: center;
 }
 .scheduler__container{
     width: 100%;

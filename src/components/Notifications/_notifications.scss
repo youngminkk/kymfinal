@@ -1,6 +1,16 @@
-#notifications{
+#notifications {
     width: 100%;
-    height: auto;
+    height: 25%;
     border: 3px black solid;
-    background-color: aquamarine
+    border-radius: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.notifications__inner{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }

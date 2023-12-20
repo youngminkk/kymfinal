@@ -49,7 +49,7 @@ const Scheduler = () => {
 
   return (
     <div id="scheduler">
-      <div className="scheduler__header">일정 관리</div>
+      <div className="scheduler__header"> 일정 관리</div>
       <div className="scheduler__container">
         <MyScheduler 
           height={300}

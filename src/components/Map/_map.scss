@@ -1,11 +1,19 @@
 /* Map.css 파일 */
 .map__container {
-    width: 100vh;
+    width: 100%;
     height: auto;
   }
+.map__inner{
+  width: 100%;
+  height: 29vh;
+  border: 3px black solid;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
   #map_div{
     width: 100%;
-    height: 30vh;
+    height: 28vh;
     margin-bottom: 3rem;
-    border: 3px black solid;
+    border-radius: 2rem;
+    overflow: hidden;
   }

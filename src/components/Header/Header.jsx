@@ -12,6 +12,9 @@ const Header = () => {
                 <li><Link to ="/info">정보</Link></li>
                 <li><Link to ="/products">상품</Link></li>
             </ul>
+            <ul className="header__member">
+              <li>로그인</li>
+            </ul>
           </div>
         </div>
     </section>

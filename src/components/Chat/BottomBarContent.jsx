@@ -4,8 +4,7 @@ import AttachFileTwoToneIcon from '@mui/icons-material/AttachFileTwoTone';
 import SendTwoToneIcon from '@mui/icons-material/SendTwoTone';
   
   const MessageInputWrapper = styled(InputBase)(({ theme }) => ({
-    fontSize: 18,
-    padding: theme.spacing(1),
+    fontSize: 14,
     width: '100%',
   }));
   

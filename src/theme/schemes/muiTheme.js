@@ -3,7 +3,7 @@ import { alpha, createTheme, darken } from '@mui/material';
 // import i18n from 'src/i18n/i18n';
 
 const themeColors = {
-  primary: '#8C7CF0',
+  primary: '#49cf6b',
   secondary: '#9EA4C1',
   success: '#57CA22',
   warning: '#FFA319',
@@ -348,7 +348,8 @@ export const muiTheme = createTheme({
     MuiDialog: {
       styleOverrides: {
         paper: {
-          backgroundColor: alpha(themeColors.trueWhite, 0.5)
+          //클릭했을때 해당 컨텐츠 투명도
+          backgroundColor: alpha(themeColors.trueWhite, 1)
         }
       }
     },
