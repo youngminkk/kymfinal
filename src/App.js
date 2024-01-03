@@ -5,6 +5,7 @@ import HomeView from "./views/Home/HomeView.jsx";
 import SearchView from "./views/Search/SearchView.jsx";
 import InfoView from "./views/Info/InfoView.jsx";
 import ProductsView from "./views/Products/ProductsView.jsx";
+import LoginView from "./views/Login/LoginView.jsx";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path="/search" element={<SearchView />} />
                     <Route path="/info" element={<InfoView />} />
                     <Route path="/products" element={<ProductsView />} />
+                    <Route path="/login" element={<LoginView />} />
                 </Routes>
             </MainLayout>
         </BrowserRouter>

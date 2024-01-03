@@ -13,7 +13,7 @@ const Header = () => {
                 <li><Link to ="/products">상품</Link></li>
             </ul>
             <ul className="header__member">
-              <li>로그인</li>
+              <li><Link to="/login">로그인</Link></li>
             </ul>
           </div>
         </div>
