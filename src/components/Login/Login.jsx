@@ -14,7 +14,7 @@ const Login = () => {
     const handleLogin = async (provider) => {
         try {
             if (provider === '') {
-                const response = await axios.post(`/login`, { email, password });
+                const response = await axios.post('http://localhost:8080/login', { email, password })
                 if (response.data.success) {
                     navigate('/');
                 } else {
@@ -52,7 +52,7 @@ const Login = () => {
                         비밀번호:
                         <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
                     </label>
-                    <button onClick={() => handleLogin('')}>로그인</button>
+                    <button onClick={(e) => {e.preventDefault(); handleLogin('')}}>로그인</button>
                 </form>
                 <a href="http://localhost:8080/oauth2/authorization/google?redirect_uri=http://localhost:3000&mode=login">
                     <button>Google Login</button>
